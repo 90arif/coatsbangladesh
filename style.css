@@ -1,0 +1,96 @@
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    border-radius: 5px;
+    position: sticky;
+    top: 0;
+}
+.main-container div{
+    color: #3a3a3a;
+}
+.nav{
+    margin-left: 550px;
+}
+.nav a{ 
+    text-decoration: none;
+    margin-right: 20px;
+    color: black;
+}
+
+.display-btn{
+    font-size: 10px;
+    font-weight: 600;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    padding: 8px;
+    background-color: #e02c6d;
+}
+.secound-contanier{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+.main-img img{
+    width: 350px;
+    border-radius: 500px;
+    margin-left: 15px;
+}
+.logo-contanier{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+}
+hr{
+    width: 1050px;
+}
+.logo-contanier img{
+    width: 80px;
+    margin-left: 50px;
+}
+.cards h2{
+    margin-top: 100px;
+    width: 55%;
+    margin-left: auto;
+    text-decoration: underline;
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
+.card-div{    
+    padding: 30px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+
+}
+.button-p{
+    margin: 10px;
+    color: #e02c6d;
+    margin-left: 1100px; 
+}
+.ariticle{
+    display: flex;  
+}
+.div-art{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.btn-art{
+    margin: 10px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #e02c6d;
+}
+footer{
+    background-color: #3a3a3a;
+    text-align: center;
+    color: white;
+}
